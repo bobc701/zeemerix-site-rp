@@ -1,0 +1,75 @@
+﻿@page
+@model IndexModel
+@{
+   ViewData["Title"] = "Home page";
+   Layout = "_Layout";
+}
+
+
+      <div style="font-family:Candara; font-size:18px;">
+
+         <p></p>
+         <span style="font-size:larger; color:Blue; font-weight:bold; margin: 40px 0px 20px 0px;">
+            &nbsp;&nbsp; &nbsp;&nbsp;Sports simulation apps for mobile devices...
+         </span>
+         <p />
+
+         <hr style="width:100%; background-color:cornflowerblue; height: 1px;" />
+
+         <table style="border-collapse: collapse;">
+
+            <tr style="height:140px;">
+               <td class="cell-img"></td>
+               <td class="cell-img">
+                  <br /><a asp-area="iPhone" asp-page="/Index"><img src="~/images/DiamondLogo_96.png" style="border:solid 2px darkgray;" /></a>
+               </td>
+               <td class="cell-descrip">
+                  <br /><span class="cell-head">Zeemerix PlayByPlay Baseball -- for iPhone and iPad</span>
+
+                  <br />Major League Baseball simulation game for iPad and iPad Pro.
+                  <br />Zeemerix PlayByPlay Baseball lets you set the lineups and choose the starting pitchers.
+                  You can choose when to pinch it, pinch run, change pitchers, and call special
+                  plays such as sacrifice bunt, steal, and intentional walk. With Zeemerix baseball
+                  you have access to every NL and AL team from 1901 to 2020.
+                  Each player performs in accordance with his real life 2019 season statistics.
+                  <p />Available on the Apple App Store.
+                  <p /><span style="color:blue; font-size:larger;">
+                     Learn more...&nbsp;&nbsp;&nbsp;
+                     <a asp-area="iPhone" asp-page="/Index">PlayByPlay for iPhone</a>&nbsp;&nbsp;&nbsp;
+                     <a asp-area="iOS" asp-page="/Index">PlayByPlay for iPad</a>
+                  </span>
+               </td>
+            </tr>
+
+            <tr class="row-devider" />
+
+            <tr style="height:140px;">
+               <td class="cell-img" style="width:100px;"></td>
+               <td class="cell-img">
+                  <a asp-area="NflCalc" asp-page="/Index"><img src="~/images/icon5_96.png" style="border:solid 2px darkgray;" /></a>
+               </td>
+               <td class="cell-descrip">
+
+                  <span class="cell-head">Pro Football What-If -- for iPhone</span>
+
+                  <br /><em>Now up-to-date with 2019 schedule and results!</em>
+                  <br />Pro Football What-If simulates the NFL season by playing out the remaining
+                  part of the schedule using random numbers combined with publicly available
+                  power ratings and point spreads, and then simulating the post-season all the
+                  way through the Super Bowl. In doing this it applies the NFL tie-breaking rules.
+                  The most powerful feature of Pro Football What-If is the ability to override,
+                  or force, the outcome of specific games. This lets you determine just how
+                  significant a particular game is.
+                  <p />Available on the Apple App Store.
+                  <p /><span style="color:blue; font-size:larger;">
+                     Learn more...&nbsp;&nbsp;&nbsp;
+                     <a asp-area="NflCalc" asp-page="/Index">What-If for iPhone</a>&nbsp;&nbsp;&nbsp;
+                  </span>
+               </td>
+            </tr>
+            <tr class="row-devider" />
+
+         </table>
+
+      </div>
+

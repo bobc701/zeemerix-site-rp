@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>
+      Zeemerix Digital Solutions
+   </title>
+   <meta name="keywords" content="mobile, software, simulation, application, developement" />
+   <meta name="description" content="Application development for Windows and mobile platforms." />
+   <link href="css/screen.css" rel="stylesheet" type="text/css" media="all" />
+
+   <style>
+      :root {
+         --main-bg-color: white;
+      }
+
+      .cell-descrip {
+         background-color: var(--main-bg-color);
+         color: black;
+         padding: 0px 0px 20px 20px;
+         width: 600px;
+      }
+
+      .cell-head {
+         background-color: var(--main-bg-color);
+         font-size: x-large;
+         font-weight: normal;
+         color: darkblue;
+      }
+
+      .cell-img {
+         background-color: var(--main-bg-color);
+         vertical-align: top;
+      }
+
+      .row-devider {
+         height: 40px;
+      }
+   </style>
+   <link rel="stylesheet" type="text/css" href="~/master1.css" />
+
+</head>
+
+<body style="background-color:var(--main-bg-color)">
+
+   <table style="border-collapse: collapse;">
+      <tr style="background-color:white;">
+         <td>
+            <img src="~/images/zeemerix4.png" />
+         </td>
+         <td style="background-color:white; width:100%;">
+         </td>
+      </tr>
+
+   </table>
+
+   @RenderBody()
+
+</body>
+
+</html>

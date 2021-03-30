@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>6a5460e6-6247-4461-a734-23dd5a1418d3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\image5.PNG" />
+    <None Remove="images\im‫age4.png" />
+    <None Remove="images\zeemerix4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\image5.PNG" />
+    <Resource Include="images\im‫age4.png" />
+    <Resource Include="images\zeemerix4.png" />
+  </ItemGroup>
+
+</Project>

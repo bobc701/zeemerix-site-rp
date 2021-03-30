@@ -1,0 +1,13 @@
+   .menu {background-color: blue; color: white; padding: 0px; border:0px;}
+      a.mainmenu:link {color: white;}
+      a.mainmenu:visited {color: cyan;}
+      a.mainmenu:hover {font-weight:bold; color:yellow;}
+      a.reglink:link {color: blue;}
+      a.reglink:visited {color: purple;}
+      a.reglink:hover {font-weight:bold; color:yellow;}
+   .Header1 {font-size: xx-large; color: darkblue; font-family: Candara, Geneva, Tahoma, sans-serif}
+   .Header3 {font-size: large; font-weight:bold}
+   .Regular {font-size: large; color:  black; font-family: Candara, Tahoma, sans-serif}
+      hr {justify-content:flex-start; border: 0; width: 600px; color: grey; background-color: grey; height: 3px;}
+      em {font-style: italic; font-weight: normal; text-decoration: underline;}
+}

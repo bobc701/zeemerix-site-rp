@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>
+         Pro Football What-If
+      </title>
+      <link href="~/css/master1.css" rel="stylesheet" type="text/css" />
+      <style>
+         body {
+            font-family: "candara";
+            font-size: medium;
+         }
+
+         .MajorTitle {
+            font-family: "candara";
+            font-size: 48px;
+            color: black;
+         }
+
+         .MinorTitle {
+            font-family: "candara";
+            font-size: large;
+            font-weight: bold
+         }
+         /*.ScreenShotLeft {padding: 4px 4px 4px 4px; vertical-align:top; font-size:large; border:2px solid navy; border-radius:10px; background-color:white;}*/
+         .ScreenShotLeft {
+            padding: 4px 4px 4px 4px;
+            vertical-align: top;
+            font-size: large;
+            border: 2px solid navy;
+            border-radius: 10px;
+            background-color: white;
+         }
+
+         .ScreenShotRite {
+            padding: 20px 20px 20px 20px;
+            vertical-align: top;
+            position: center;
+            font-size: large;
+         }
+      </style>
+      <script type="text/javascript">
+
+      </script>
+   </head>
+
+   <body>
+
+      <img src="~/images/zeemerix4.png" border="0" />
+      <br />
+      <table>
+         <tr>
+            <td class="menu" align="center"><a class="mainmenu" asp-area="" asp-page="/Index"> Zeemerix Home</a> </td>
+            <td class="menu" align="center"><a class="mainmenu" asp-page="/Index">What-If Home</a> </td>
+            <td class="menu" align="center"><a class="mainmenu" asp-page="/Products1">Screen Shots</a> </td>
+
+            <td class="menu" align="center"><a class="mainmenu" asp-page="/Downloads1">Get What-If</a> </td>
+            <td class="menu" align="center"><a class="mainmenu" asp-page="/Contact1">Contact</a> </td>
+         </tr>
+      </table>
+
+      @RenderBody()
+
+   </body>
+
+</html>
